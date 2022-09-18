@@ -1,9 +1,8 @@
-
 import './App.css';
-
 import React, { Component } from 'react'
 import Navbar from './components/Navbar';
 import Card from './components/Card';
+import IconList from './components/IconList';
 
 export default class App extends Component{
 
@@ -13,7 +12,10 @@ export default class App extends Component{
       <div>
 
        <Navbar/>
-        <Card/>
+
+       <IconList/>
+       
+       <Card/>
 
       </div>
 
