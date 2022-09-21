@@ -1,16 +1,11 @@
 import React, { Component } from 'react'
-import { FaHeart,FaRegUserCircle,FaStripeS } from "react-icons/fa";
-// import companyLogo from "./web-page/src/components/favicon.ico";
+import { FaRegUserCircle,FaStripeS } from "react-icons/fa";
 
 export class Navbar extends Component {
 
   render() {
     return (
       <div>
-        {/* color: white;
-      background-color: blue;
-      width: 2rem,height: 2rem; */}
-        
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <div className="container-fluid">
             <a className="navbar-brand mb-0 h1" href="/">
@@ -27,7 +22,7 @@ export class Navbar extends Component {
             <form className="d-flex">
             
             
-                <input className="form-control me-1 rounded-pill" type="search" placeholder="Search" style={{width: "25rem", padding: "6px"}}  aria-label="Search"/>
+                <input className="form-control me-1 rounded-pill" type="search" placeholder="Search" style={{width: "25rem", padding: "6px"}}  aria-label="Search Item"/>
             </form>
 
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
