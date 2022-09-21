@@ -20,21 +20,19 @@ export class Navbar extends Component {
             </ul>
 
             <form className="d-flex">
-            
-            
-                <input className="form-control me-1 rounded-pill" type="search" placeholder="Search" style={{width: "25rem", padding: "6px"}}  aria-label="Search Item"/>
+                <input className="form-control me-1 rounded-pill" type="search" placeholder="🔍 Search Item" style={{width: "25rem", padding: "6px"}}  aria-label="Search Item"/>
             </form>
 
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-                <a className="nav-link active" href="/" tabIndex="-1" aria-disabled="true">Consumer Electronics</a>
+                <a className="nav-link active" href="/" tabIndex="-1" aria-disabled="true" style={{color: "blue"}}>Consumer Electronics</a>
                 </li>
             </ul>
             </div>
         </div>
           <div class="d-grid gap-1 d-md-flex justify-content-md-end" style={{width: "18rem"}}>
-            <button class="btn btn-light me-md-2" type="button" style={{border: "1px solid"}}>Sign in</button>
-            <button class="btn btn-light" type="button" style={{border: "1px solid"}}>My cart</button>
+            <button class="btn btn-light me-md-2" type="button" style={{border: "1px solid",color: "blue"}}>Sign in</button>
+            <button class="btn btn-light" type="button" style={{border: "1px solid",color: "blue"}}>My cart</button>
             <FaRegUserCircle style={{width: "3rem",height:"39px"}}/>
           
           </div>
