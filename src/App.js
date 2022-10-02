@@ -1,8 +1,11 @@
 import './App.css';
 import React, { Component } from 'react'
-import Navbar from './components/Navbar';
-import Card from './components/Card';
-import IconList from './components/IconList';
+// import Navbar from './components/Navbar';
+// import Card from './components/Card';
+// import IconList from './components/IconList';
+
+import Navbar2 from './components/Navbar2';
+import Img from './components/Img';
 
 export default class App extends Component{
 
@@ -10,12 +13,14 @@ export default class App extends Component{
     return(
 
       <div>
+        <Navbar2/>
+        <Img/>
 
-       <Navbar/>
+        {/* ecommerce website */}
 
-       <IconList/>
-       
-       <Card/>
+       {/* <Navbar/> */}
+       {/* <IconList/> */}
+       {/* <Card/> */}
 
       </div>
 

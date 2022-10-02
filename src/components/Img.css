@@ -1,0 +1,65 @@
+*{
+    margin: 0; 
+    padding: 0;
+}
+
+
+.container{
+    max-width: 1200px;
+    /* background-color: rgba(0, 0, 0, .10); */
+    height: 350px;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 100px;
+    cursor: pointer;
+    /* box-shadow: 0 20px 30px rgba(0,0,0,.47); */
+    
+}
+
+.box{
+    position: relative;
+    background-position: left;
+    background-size: cover;
+    height: 100%;
+    transition: .7s;
+    flex: 1;
+    box-shadow: 0 20px 30px rgba(0,0,0,.47);
+}
+
+.box:hover{
+    flex: 2;
+}
+
+.a1{
+    background: url(https://live-production.wcms.abc-cdn.net.au/1006c7ecf34ec0935eef2aade5017711?impolicy=wcms_crop_resize&cropH=2815&cropW=5004&xPos=0&yPos=223&width=862&height=485);
+    background-size: cover;
+    background-position: center;
+}
+
+.a2{
+    background: url(https://cdn.24.co.za/files/Cms/General/d/10743/97d776dc91734e98906c0e1b7f3b1afa.jpg);
+    /* background-size: cover; */
+    background-position: center;
+    
+}
+
+.a3{
+    background: url(https://a4.espncdn.com/combiner/i?img=%2Fi%2Fcricket%2Fcricinfo%2F1219926_1296x729.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+h6{
+    color: white;
+    margin: 28px 0px -21px 23px;
+}
+
+.text1{
+    opacity: 0;
+}
+
+.box:hover .text1{
+    opacity: 1;
+}
